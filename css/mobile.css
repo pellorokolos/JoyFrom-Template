@@ -171,7 +171,7 @@
 	#body.home div.header div {
 		margin: 0 auto;
 		max-width: 960px;
-		min-height: 470px;
+		min-height: 440px;
 		padding: 0;
 		position: relative;
 	}
@@ -189,7 +189,7 @@
 		padding: 52px 0 0;
 		position: relative;
 		right: 0;
-		top: 292px;
+		top: 260px;
 	}
 	#body.home div.body div, #body.home div.footer div {
 		margin: 0 auto;
