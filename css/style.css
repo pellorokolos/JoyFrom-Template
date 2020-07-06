@@ -367,18 +367,15 @@ img {
 	background-color: #ebebed;
 	margin: 0;
 	max-width: none;
-	min-height: 249px;
+	height: fit-content;
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
 }
 #body div.body img {
 	display: block;
-	left: 50%;
-	margin: 0 auto 0 -507px;
 	padding: 0;
-	position: absolute;
-	width: 1014px;
+	width: 100%;
 }
 #body div.footer {
 	margin: 0 auto;
@@ -482,6 +479,7 @@ img {
 	padding: 87px 0 27px 30px;
 	text-align: left;
 	text-transform: capitalize;
+	width: 250px;
 }
 #body div ul li p {
 	color: #7A6666;
@@ -492,7 +490,7 @@ img {
 	margin: 0;
 	padding: 0 0 0 30px;
 	text-align: left;
-	width: 190px;
+	width: max-content;
 }
 #body div ul li p a {
 	color: #7a6666;
@@ -1042,7 +1040,7 @@ img {
 	margin: 0 auto;
 	max-width: 960px;
 	overflow: hidden;
-	padding: 59px 0 13px;
+	padding: 25px 0 0px;
 }
 #footer div p {
 	color: #FFFFFF;
