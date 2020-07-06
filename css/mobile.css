@@ -32,7 +32,7 @@
 		display: block;
 		margin: 0 auto;
 		padding: 0;
-		width: 50%;
+		width: 30%;
 	}
 	#header span#mobile-navigation {
 		background: transparent url(../images/mobile/mobile-menu.png) no-repeat;
@@ -177,7 +177,7 @@
 	}
 	#body.home div.header img {
 		display: block;
-		height: 18%;
+		height: auto;
 		left: 0;
 		margin: 0 auto;
 		padding: 0;
@@ -185,11 +185,12 @@
 		width: 100%;
 	}
 	#body.home div.header div a {
-		margin: 0 auto;
+		margin: 0 auto 0 60%;
 		padding: 52px 0 0;
 		position: relative;
 		right: 0;
 		top: 260px;
+
 	}
 	#body.home div.body div, #body.home div.footer div {
 		margin: 0 auto;
@@ -223,15 +224,13 @@
 		float: none;
 	}
 	#body div.body {
-		min-height: 280px;
+		height: fit-content;
 	}
 	#body div.body img {
 		display: block;
-		height: 15%;
 		left: 0;
 		margin: 0 auto;
 		padding: 0;
-		position: absolute;
 		width: 100%;
 	}
 	#body div.footer {
@@ -254,7 +253,7 @@
 		width: 90%;
 	}
 	#body div ul {
-		padding: 10% 0;
+		padding: 10pt 0;
 		width: 100%;
 	}
 	#body div ul li {
